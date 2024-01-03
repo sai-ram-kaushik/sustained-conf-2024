@@ -1,5 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&family=Unbounded&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+        @apply bg-background font-poppins
+    }
+
+    h1 {
+        @apply text-5xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-7xl 2xl:text-8xl font-garamond font-bold
+    }
+
+    h2 {
+        @apply text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-garamond font-normal
+    }
+
+    h3 {
+        @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-garamond font-normal
+    }
+
+    span {
+        @apply text-secondary
+    }
+    
+}

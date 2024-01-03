@@ -10,7 +10,8 @@ module.exports = {
     extend: {
       fontFamily: {
         unbounded: "Unbounded",
-        garamond: "EB Garamond"
+        garamond: "EB Garamond",
+        poppins: "Poppins"
       },
       colors: {
         background: "#fff",
