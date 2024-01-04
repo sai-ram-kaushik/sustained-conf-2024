@@ -3,10 +3,12 @@ import vector from "../public/assets/conference1.svg";
 import bg from "../public/assets/bgVector.svg";
 import { CiCalendarDate, CiLocationOn } from "react-icons/ci";
 import Button from "../components/Button";
+import TransitionEffect from "../components/TransitionEffect";
 const Homepage = () => {
     return (
         <>
-            <div className='w-full lg:h-[75vh] p-5 z-[990]'>
+        <TransitionEffect />
+            <div className='w-full lg:h-[75vh] z-[990]'>
                 <div className="container mx-auto w-full h-full">
                     <div className='flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-28 w-full h-full px-4 lg:px-0'>
                         <div className='flex flex-col items-center lg:items-start gap-3 lg:gap-8'>
@@ -43,7 +45,7 @@ const Homepage = () => {
                         </div>
 
                         <div>
-                            <Image src={vector} alt='vector' />
+                            <Image src={vector} alt='vector' priority />
                         </div>
                     </div>
                 </div>

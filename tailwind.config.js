@@ -14,8 +14,8 @@ module.exports = {
         poppins: "Poppins"
       },
       colors: {
-        background: "#212429",
-        primary: "#fff",
+        background: "#fff",
+        primary: "#000",
         secondary: "#47CCD4"
       }
     },
