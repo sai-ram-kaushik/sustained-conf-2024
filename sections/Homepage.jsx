@@ -1,18 +1,17 @@
 import Image from "next/image";
-import vector from "../public/assets/conference.svg";
+import vector from "../public/assets/conference1.svg";
 import bg from "../public/assets/bgVector.svg";
 import { CiCalendarDate, CiLocationOn } from "react-icons/ci";
 import Button from "../components/Button";
 const Homepage = () => {
     return (
         <>
-            <Image src={bg} className='absolute top-0 right-0' />
-            <div className='w-full lg:h-[85vh] p-5 z-[990] relative'>
-                <div className='container mx-auto w-full h-full'>
-                    <div className='flex flex-col lg:flex-row items-center justify-center gap-28 w-full h-full'>
+            <div className='w-full lg:h-[75vh] p-5 z-[990]'>
+                <div className="container mx-auto w-full h-full">
+                    <div className='flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-28 w-full h-full px-4 lg:px-0'>
                         <div className='flex flex-col items-center lg:items-start gap-3 lg:gap-8'>
                             <h1 className='text-secondary'>Sustained - 2024</h1>
-                            <p className='text-xl lg:text-3xl text-center lg:text-start font-semibold lg:leading-[2.5rem]'>
+                            <p className='text-xl lg:text-3xl text-center lg:text-start font-semibold lg:leading-[2.5rem] lg:w-[40rem]'>
                                 International Conference on <span>Sustainability</span>, and{" "}
                                 <span>Technological Advancements</span> in Engineering Domain
                             </p>
@@ -36,6 +35,9 @@ const Homepage = () => {
                                     <p>Manav Rachna</p>
                                 </div>
                             </div>
+
+                            <p className="text-lg text-center lg:text-start lg:w-[40rem] font-semibold">Organised by Department of Mechanical Engineering, School of Engineering & Technology,
+                                Manav Rachna International Institute of Research and Studies</p>
 
                             <Button className="shadow-lg shadow-secondary">Register Now !</Button>
                         </div>

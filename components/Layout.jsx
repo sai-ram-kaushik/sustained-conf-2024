@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '../sections/Navbar'
 import Footer from '../sections/Footer'
+import TransitionEffect from './TransitionEffect'
+
 const Layout = ({ children }) => {
     return (
         <div>
@@ -10,6 +12,7 @@ const Layout = ({ children }) => {
             </Head>
 
             <div className='flex flex-col min-h-screen'>
+                <TransitionEffect />
                 <Navbar />
                 <main className='flex-grow'>{children}</main>
                 <Footer />
