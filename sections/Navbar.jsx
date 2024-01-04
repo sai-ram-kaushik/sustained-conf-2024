@@ -17,9 +17,11 @@ const Navbar = () => {
     <div className='w-full h-20 z-[999] bg-background sticky top-0'>
       <div className='container mx-auto w-full h-full'>
         <div className='flex items-center justify-between w-full h-full px-6 lg:px-0'>
-          <div>
-            <Image src={mrlogo} width={200} height={200} />
-          </div>
+          <Link href="/">
+            <div>
+              <Image src={mrlogo} width={200} height={200} />
+            </div>
+          </Link>
 
           <div className='hidden lg:flex items-center gap-5'>
             {menuList.map((list, index) => (
@@ -36,32 +38,32 @@ const Navbar = () => {
       </div>
 
       <div
-          className={
-            nav
-              ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-primary text-background p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 h-screen p-10 ease-in duration-700"
-          }>
-          <Link href="/" onClick={handleChange}>
-            <h1>
-              logo
-            </h1>
-          </Link>
+        className={
+          nav
+            ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-primary text-background p-10 ease-in duration-500"
+            : "fixed left-[-100%] top-0 h-screen p-10 ease-in duration-700"
+        }>
+        <Link href="/" onClick={handleChange}>
+          <h1>
+            logo
+          </h1>
+        </Link>
 
-          <div className="flex flex-col items-center justify-center w-full h-full gap-10">
-            {menuList.map((link, index) => (
-              <ul
-                key={index}
-                className="text-xl text-background"
-                onClick={handleChange}>
-                <Link
-                  href={link.path}
-                  className="text-background hover:text-secondary text-center duration-200">
-                  <li>{link.label}</li>
-                </Link>
-              </ul>
-            ))}
-          </div>
+        <div className="flex flex-col items-center justify-center w-full h-full gap-10">
+          {menuList.map((link, index) => (
+            <ul
+              key={index}
+              className="text-xl text-background"
+              onClick={handleChange}>
+              <Link
+                href={link.path}
+                className="text-background hover:text-secondary text-center duration-200">
+                <li>{link.label}</li>
+              </Link>
+            </ul>
+          ))}
         </div>
+      </div>
     </div>
   )
 }

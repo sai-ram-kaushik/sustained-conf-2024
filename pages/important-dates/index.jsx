@@ -1,8 +1,10 @@
+import TransitionEffect from "../../components/TransitionEffect";
 import { important_dates } from "../../constants";
 const ImportantDates = () => {
 
     return (
         <div className="w-full p-5">
+            <TransitionEffect />
             <div className="container mx-auto">
                 <div className="flex items-center justify-center">
                     <h2>Important <span>Dates</span></h2>
