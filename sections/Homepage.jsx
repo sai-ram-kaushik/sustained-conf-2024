@@ -11,7 +11,7 @@ const Homepage = () => {
             <div className='w-full lg:h-[75vh] z-[990]'>
                 <div className="container mx-auto w-full h-full">
                     <div className='flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-28 w-full h-full px-4 lg:px-0'>
-                        <div className='flex flex-col items-center lg:items-start gap-3 lg:gap-8'>
+                        <div className='flex flex-col items-center lg:items-start gap-3 lg:gap-5'>
                             <h1 className='text-secondary'>Sustained - 2024</h1>
                             <p className='text-xl lg:text-3xl text-center lg:text-start font-semibold lg:leading-[2.5rem] lg:w-[40rem]'>
                                 International Conference on <span>Sustainability</span>, and{" "}
