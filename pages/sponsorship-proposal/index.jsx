@@ -1,7 +1,7 @@
 import React, { useState, useTransition } from "react";
 import Image from "next/image"
-import sponsor_image from '../../public/assets/sponsor.svg'
-import TransitionEffect from '../../components/TransitionEffect'
+import sponsor_image from '../../public/assets/sponsor.svg';
+import TransitionEffect from '../../components/TransitionEffect';
 import TabButton from "../../components/TabButton";
 const SponsorshipProposal = () => {
     const [tab, setTab] = useState("Platinum Sponsorship (1,00,000 INR)");
@@ -23,8 +23,8 @@ const SponsorshipProposal = () => {
                         <li>Company logo and link on the conference website.</li>
                         <li>Acknowledgement during the inaugural ceremony.</li>
                         <li>Colour advertisement of the sponsor/ product on the front page of the Souvenir.</li>
-                        <li>Company's name and logo printed on the conference proceedings, posters, and signage.</li>
-                        <li>Company's brochure and demo CD to be included in the Conference kit.</li>
+                        <li>Company&apos;s name and logo printed on the conference proceedings, posters, and signage.</li>
+                        <li>Company&apos;s brochure and demo CD to be included in the Conference kit.</li>
                         <li>Two complimentary registrations.</li>
                         <li>One double exhibit space.
                         </li>
@@ -42,7 +42,7 @@ const SponsorshipProposal = () => {
                         <li>Company logo and link on the Conference Website.</li>
                         <li>Acknowledgement during the Inaugural Ceremony.</li>
                         <li>Colour advertisement of the sponsor/product in the Conference Souvenir.</li>
-                        <li>Company's name and logo printed on the Conference Proceedings, Posters, and Signage.</li>
+                        <li>Company&apos;s name and logo printed on the Conference Proceedings, Posters, and Signage.</li>
                         <li>One complimentary registration.</li>
                         <li>One exhibit space.</li>
                     </ul>
@@ -58,7 +58,7 @@ const SponsorshipProposal = () => {
                     <ul role="list" className="marker:text-secondary list-disc flex flex-col gap-5 p-3 text-justify ">
                         <li>Company logo and link on the Conference Website.</li>
                         <li>Colour advertisement of the sponsor/ product in the Conference Souvenir.</li>
-                        <li>Company's name and logo printed on the Conference Signage.</li>
+                        <li>Company&apos;s name and logo printed on the Conference Signage.</li>
                         <li>Display of Company Banner within the Lunch Area.</li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@ const SponsorshipProposal = () => {
                         <li>Company Logo and link on the Conference Website</li>
                         <li>Colour Advertisement of sponsor/product in the Conference Souvenir.</li>
                         <li>Special talk/Presentation of 10 minutes before the dinner</li>
-                        <li>Company's Name and Logo printed on the Conference Signage.</li>
+                        <li>Company&apos;s Name and Logo printed on the Conference Signage.</li>
                         <li>Display of Company Banner within the Dinner Area</li>
                     </ul>
                 </div>
@@ -87,8 +87,8 @@ const SponsorshipProposal = () => {
             content: (
                 <div className="flex flex-col items-center justify-center mt-5">
                     <ul role="list" className="marker:text-secondary list-disc flex flex-col gap-5 p-3 text-justify lg:w-[40rem]">
-                        <li>Conference Kit Sponsorship: 50,000 INR (Benefits: Sponsor's Logo along with Organizer's Logo will be placed on the bag)</li>
-                        <li>Banner and Poster Sponsorship: 25,000 INR (Benefits: Conference Banner and Poster contain the sponsor's logo. There will be placed at the Conference Venue and Publicized across colleges and Universities.)</li>
+                        <li>Conference Kit Sponsorship: 50,000 INR (Benefits: Sponsor&apos;s Logo along with Organizer&apos;s Logo will be placed on the bag)</li>
+                        <li>Banner and Poster Sponsorship: 25,000 INR (Benefits: Conference Banner and Poster contain the sponsor&apos;s logo. There will be placed at the Conference Venue and Publicized across colleges and Universities.)</li>
                         <li>Pen drive, T-shirts, and Blazers Sponsorship.</li>
                         <li>Any other sponsorship as per mutual understanding and open discussion.</li>
                     </ul>
@@ -152,11 +152,11 @@ const SponsorshipProposal = () => {
                             <li>All payments for sponsorship/stall bookings are to be made in advance.</li>
                             <li>All transactions are subject to Noida jurisdiction.</li>
                             <li>All stall requirements shall be made known seven days before the event. All additions shall be charged appropriately.</li>
-                            <li>Company's Logo & complete Name of the Company with style will be required for acknowledgment through Backdrops, Banners, brochures, stationary, Invitation cards & other promotional material.</li>
+                            <li>Company&apos;s Logo & complete Name of the Company with style will be required for acknowledgment through Backdrops, Banners, brochures, stationary, Invitation cards & other promotional material.</li>
                         </ol>
                     </div>
 
-                    <p><b>Mode of Payment:</b> All payments are to be made through DD/Cheque drawn in favour of "Manav Rachna International Institute of Research and Studies, Haryana” payable at Faridabad.</p>
+                    <p><b>Mode of Payment:</b> All payments are to be made through DD/Cheque drawn in favour of &apos;Manav Rachna International Institute of Research and Studies, Haryana&apos; payable at Faridabad.</p>
                     <p>Please feel free to contact the finance person regarding any query on sponsorship:</p>
                     <p><b>Dr. Rajendra Kumar</b> M: 9466239008 E: rajender.set@mriu.edu.in </p>
                 </div>
