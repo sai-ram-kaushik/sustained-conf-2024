@@ -97,7 +97,7 @@ const SponsorshipProposal = () => {
         }
     ];
     return (
-        <div className="w-full p-5">
+        <div className="w-full px-4 lg:px-16 mt-10">
             <TransitionEffect />
             <div className="container mx-auto">
                 <div className="flex items-center justify-center">

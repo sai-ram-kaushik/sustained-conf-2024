@@ -1,5 +1,5 @@
-import TransitionEffect from "../../components/TransitionEffect";
-import { important_dates } from "../../constants";
+import TransitionEffect from "../components/TransitionEffect";
+import { important_dates } from "../constants";
 const ImportantDates = () => {
 
     return (
@@ -7,7 +7,7 @@ const ImportantDates = () => {
             <TransitionEffect />
             <div className="container mx-auto">
                 <div className="flex items-center justify-center">
-                    <h2>Important <span>Dates</span></h2>
+                    <h3>Important <span>Dates</span></h3>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
                     {important_dates.map((event, index) => (

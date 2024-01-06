@@ -21,7 +21,7 @@ html {
     }
 
     h3 {
-        @apply text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-garamond font-semibold
+        @apply text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-garamond font-semibold
     }
 
     span {
@@ -39,11 +39,12 @@ html {
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #47CCD4;
+    background-color: #005731;
     border-radius: 1rem;
     background-clip: content-box;
   }
 
   table, th, td{
     border: 1px solid black;
+    padding: 5px;
   }
