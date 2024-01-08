@@ -26,13 +26,13 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-3 lg:gap-8">
-          <div className="flex flex-row gap-2 items-center text-sm text-white">
+          {/* <div className="flex flex-row gap-2 items-center text-sm text-white">
             <BiPhoneCall />
             <p>+91 9466239008 (Dr. Rajendra Kumar)</p>
-          </div>
+          </div> */}
           <div className="flex flex-row gap-2 items-center text-sm text-white">
             <AiOutlineMail />
-            <p>sustained2024@gmail.com</p>
+            <p>sustained@mriu.edu.in</p>
           </div>
         </div>
 
@@ -41,9 +41,9 @@ const Footer = () => {
             <div
               key={link.key}
               className="bg-secondary text-background rounded-full p-3">
-              <a href={link.path} target="_blank">
+              {/* <a href={link.path} target="_blank"> */}
                 <div>{link.icon}</div>
-              </a>
+              {/* </a> */}
             </div>
           ))}
         </div>

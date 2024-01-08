@@ -5,7 +5,7 @@ import { FaFacebookF } from "react-icons/fa";
 export const menuList = [
   { label: "Home", path: "/" },
   { label: "SET", path: "/set" },
-  { label: "Program Schedule", path: "/program-schedule" },
+  { label: "Conference Theme", path: "/conferene-theme" },
   { label: "Call for Papers", path: "/call-for-papers" },
   { label: "Publications", path: "/publications" },
   { label: "Special Seminars", path: "/special-seminars" },
@@ -65,21 +65,27 @@ export const chief_patrons = [
 export const patrons = [
   {
     label: "Prof. (Dr.) Sanjay Srivastava",
-    designation: "VC, MRIIRS, Faridabad",
+    designation: "Vice Chancellor, MRIIRS, Faridabad",
   },
-  { label: "Prof. (Dr.) Pardeep Kumar", designation: "PVC, MRIIRS, Faridabad" },
-  { label: "Prof. (Dr.) Naresh Grover", designation: "VC, MRIIRS, Faridabad" },
+  {
+    label: "Prof. (Dr.) Pardeep Kumar",
+    designation: "Pro-Vice Chancellor, MRIIRS, Faridabad",
+  },
+  {
+    label: "Prof. (Dr.) Naresh Grover",
+    designation: "Pro-Vice Chancellor, MRIIRS, Faridabad",
+  },
   { label: "Shri R. K. Arora", designation: "Registrar, MRIIRS, Faridabad" },
 ];
 
 export const co_patrons = [
   {
     label: "Prof. (Dr.) Geeta Nijhawan",
-    designation: "Associate Dean, FET, MRIIRS, Faridabad",
+    designation: "Associate Dean, SET, MRIIRS, Faridabad",
   },
   {
     label: "Prof. (Dr.) Tapas Kumar",
-    designation: "Associate Dean, FET, MRIIRS, Faridabad",
+    designation: "Associate Dean, SET, MRIIRS, Faridabad",
   },
 ];
 
@@ -117,11 +123,53 @@ export const conference_chair = [
 
 export const co_convenor = [
   {
-    label: "Dr. Anjali Gupta Professor",
-    designation: "Department of Civil Engineering",
+    label: "Dr. Anjali Gupta",
+    designation: " Professor, Department of Civil Engineering",
   },
   {
     label: "Dr. Prateek Mittal",
     designation: "Assistant Professor, Department of Mechanical Engineering",
+  },
+];
+
+export const theme = [
+  {
+    label: "Track 1",
+    title: "Engineering Materials for Sustainable Mechanical Systems",
+  },
+  { label: "Track 2", title: "Manufacturing Process and Techniques" },
+  { label: "Track 3", title: "Industrial Engineering and Management" },
+  { label: "Track 4", title: "Design and Thermal Engineering " },
+  {
+    label: "Track 5",
+    title: "Sustainable Mechanical System & Product Development",
+  },
+  { label: "Track 6", title: "Renewable and Non-renewable Energy " },
+  { label: "Track 7", title: "Energy Storage Management and Optimization " },
+  { label: "Track 8", title: "Robotics and Automation" },
+  { label: "Track 9", title: "Electric Vehicle Technology" },
+  { label: "Track 10", title: "Control System Applications" },
+  { label: "Track 11", title: "Smart Grids and Waste Energy Integration" },
+  { label: "Track 12", title: "Power Electronics" },
+  { label: "Track 13", title: "Green Energy Technologies" },
+  { label: "Track 14", title: "Big Data, Distributed and Cloud Computing" },
+  { label: "Track 15", title: "5G, IoT, and Futuristic Technologies" },
+  { label: "Track 16", title: "Intelligent Systems and Automation" },
+  { label: "Track 17", title: "Multimedia Services & Technologies" },
+  {
+    label: "Track 18",
+    title: "Neural Informatics, Machine Learning & Deep Learning",
+  },
+  { label: "Track 19", title: "Hardware Design and Communication" },
+  {
+    label: "Track 20",
+    title: "Ubiquitous Computing, Networking and Cyber Security",
+  },
+  { label: "Track 21", title: "Smart City, Smart Systems and Technologies" },
+  { label: "Track 22", title: "Sustainable Infrastructure Development" },
+  { label: "Track 23", title: "Advancements in Structural Engineering" },
+  {
+    label: "Track 24",
+    title: "Miscellaneous Topics in Engineering related to Sustainability",
   },
 ];

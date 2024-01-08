@@ -1,15 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const ScrollingContent = () => {
   return (
-    <div className='w-full h-[5vh] bg-secondary sticky top-20'>
-        <div className='container mx-auto w-full h-full'>
-            <div className='flex items-center justify-center'>
-                <marquee scrollamount="20" className="text-background">All the accepted papers will be indexed in Scopus database</marquee>
-            </div>
-        </div>      
+    <div className="w-full h-[5vh] bg-secondary sticky top-20">
+      <div className="container mx-auto w-full h-full">
+        <div className="flex items-center justify-center w-full h-full">
+          <marquee scrollamount="20" className="text-background text-lg">
+            All the accepted papers will be indexed in Scopus database
+          </marquee>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ScrollingContent
+export default ScrollingContent;

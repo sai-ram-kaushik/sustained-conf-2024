@@ -25,7 +25,7 @@ html {
     }
 
     span {
-        @apply text-secondary
+        @apply text-primary
     }
     
 }

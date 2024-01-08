@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full h-[10vh] z-[999] bg-background lg:bg-secondary lg:text-background sticky top-0">
+      <div className="w-full h-[10vh] z-[999] bg-background lg:bg-secondary mt-3 lg:text-background sticky top-0">
         <div className="flex items-center justify-between lg:justify-center w-full h-full px-6 lg:px-16">
           <div className="block lg:hidden">
             <Image src={logo} width={100} height={100} alt="logo" />

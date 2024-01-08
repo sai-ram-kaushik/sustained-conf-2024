@@ -41,7 +41,7 @@ const index = () => {
           </h3>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10 mt-5">
           {patrons.map((list, index) => (
             <div key={index} className="flex flex-col items-center">
               <p className="text-xl text-center font-unbounded">{list.label}</p>
@@ -56,7 +56,7 @@ const index = () => {
           </h3>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-5">
           {co_patrons.map((list, index) => (
             <div key={index} className="flex flex-col items-center">
               <p className="text-xl text-center font-unbounded">{list.label}</p>
@@ -71,7 +71,7 @@ const index = () => {
           </h3>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-5">
           {general_chair.map((list, index) => (
             <div key={index} className="flex flex-col items-center">
               <p className="text-xl text-center font-unbounded">{list.label}</p>
@@ -82,11 +82,11 @@ const index = () => {
 
         <div className="flex items-center justify-center mt-5">
           <h3>
-            Conference <span>Chair</span>
+            Conference <span>Chair & Convener</span>
           </h3>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="flex item-center justify-center gap-10 lg:gap-20 mt-5">
           {conference_chair.map((list, index) => (
             <div key={index} className="flex flex-col items-center">
               <p className="text-xl text-center font-unbounded">{list.label}</p>
@@ -97,11 +97,11 @@ const index = () => {
 
         <div className="flex items-center justify-center mt-5">
           <h3>
-            Co - <span>Convenor</span>
+            Co - <span>Convener</span>
           </h3>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-5">
           {co_convenor.map((list, index) => (
             <div key={index} className="flex flex-col items-center">
               <p className="text-xl text-center font-unbounded">{list.label}</p>

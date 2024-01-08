@@ -158,7 +158,7 @@ const SponsorshipProposal = () => {
 
                     <p><b>Mode of Payment:</b> All payments are to be made through DD/Cheque drawn in favour of &apos;Manav Rachna International Institute of Research and Studies, Haryana&apos; payable at Faridabad.</p>
                     <p>Please feel free to contact the finance person regarding any query on sponsorship:</p>
-                    <p><b>Dr. Rajendra Kumar</b> M: 9466239008 E: rajender.set@mriu.edu.in </p>
+                    <p><b>Dr. Devendra Vashisht</b> Mobile number: 8800495701 Email id: devendra.set@mriu.edu.in</p>
                 </div>
             </div>
         </div>
