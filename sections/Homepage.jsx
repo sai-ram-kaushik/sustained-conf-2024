@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
     <>
       <TransitionEffect />
-      <div className="w-full px-4 lg:px-16 lg:h-[75vh] z-[990]">
+      <div className="w-full px-4 lg:px-16 z-[990]">
         <div className="container mx-auto w-full h-full">
           <div className="flex flex-col items-center justify-center gap-3">
             <p className="text-xl lg:text-3xl text-center lg:text-start font-semibold mt-5 text-secondary">
