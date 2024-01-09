@@ -1,29 +1,50 @@
-import TransitionEffect from "../components/TransitionEffect";
-import { important_dates } from "../constants";
-const ImportantDates = () => {
+import React from "react";
 
-    return (
-        <div className="w-full p-5">
-            <TransitionEffect />
-            <div className="container mx-auto">
-                <div className="flex items-center justify-center">
-                    <h3>Important <span>Dates</span></h3>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
-                    {important_dates.map((event, index) => (
-                        <div
-                            key={index}
-                            className="bg-white border border-secondary rounded-lg shadow-lg p-6 hover:shadow-2xl transition duration-300 cursor-pointer"
-                        >
-                            <p className="text-xl font-bold lg:text-2xl mb-2">{event.label}</p>
-                            <p className="text-gray-600">{event.date}</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </div>
-    );
+const Dates = () => {
+  return (
+    <section>
+      <div className="text-center">
+        <h3>
+          Important <span>Dates</span>
+        </h3>
+      </div>
+
+      <div className="mt-10 justify-center  flex text-gray-600">
+        <table className="text-gray-600">
+          <tr className="text-2xl">
+            <td>Paper Submission Deadline:</td>
+            <td>
+              25<sup>st</sup> March, 2024
+            </td>
+          </tr>
+          <tr className="text-2xl">
+            <td>Acceptance Notification:</td>
+            <td>
+              25<sup>th</sup> April, 2024
+            </td>
+          </tr>
+          <tr className="text-2xl">
+            <td>Camera Ready Paper Submission Deadline:</td>
+            <td>
+              25<sup>th</sup> May, 2024
+            </td>
+          </tr>
+          <tr className="text-2xl">
+            <td>Early Registration Deadline</td>
+            <td>
+              25<sup>th</sup> June, 2024
+            </td>
+          </tr>
+          <tr className="text-2xl">
+            <td>Conference Dates:</td>
+            <td>
+              30<sup>th</sup> & 31<sup>st</sup> August, 2024
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  );
 };
 
-export default ImportantDates;
-
+export default Dates;

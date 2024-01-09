@@ -4,7 +4,7 @@ const AboutConf = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
           <h2>
-            About <span>Sustained - 2024</span>
+            ABOUT <span>SUSTAINED 2024</span>
           </h2>
         </div>
 
