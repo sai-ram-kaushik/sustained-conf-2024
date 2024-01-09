@@ -15,13 +15,13 @@ const Header = () => {
                 <Image
                   src={sustained}
                   alt="sustained-zero"
-                  width={150}
-                  height={150}
+                  width={130}
+                  height={130}
                 />
               </span>
             </h1>
 
-            <h3 className="text-[#BA2026]">Manav Rachna International Institute of Research and Studies</h3>
+            <h3 className="text-[#BA2026] text-xl">Manav Rachna International Institute of Research and Studies</h3>
           </div>
           <Image src={mrlogo} width={250} height={250} alt="sustained_logo" />
         </div>

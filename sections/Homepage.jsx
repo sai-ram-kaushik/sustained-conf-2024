@@ -14,7 +14,7 @@ const Homepage = () => {
       <div className="w-full px-4 lg:px-16 z-[990]">
         <div className="container mx-auto w-full h-full">
           <div className="flex flex-col items-center justify-center gap-3">
-            <p className="text-xl lg:text-3xl text-center lg:text-start font-semibold mt-5 text-secondary">
+            <p className="text-xl lg:text-3xl text-center font-semibold mt-5 text-secondary">
               International Conference on Sustainability and Technological
               Advancements in Engineering Domain
             </p>
@@ -41,9 +41,8 @@ const Homepage = () => {
               </div>
 
               <p className="text-lg text-center lg:text-start lg:w-[40rem] font-semibold">
-                Organised by Department of Mechanical Engineering, School of
-                Engineering & Technology, Manav Rachna International Institute
-                of Research and Studies
+                Organised by School of Engineering & Technology, Manav Rachna International Institute
+                of Research and Studies, Faridabad
               </p>
 
               <Link href="/registration">

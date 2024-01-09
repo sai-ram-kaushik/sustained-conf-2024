@@ -22,7 +22,7 @@ const Navbar = () => {
             {menuList.map((list, index) => (
               <ul
                 key={index}
-                className="text-md font-normal duration-200 cursor-pointer">
+                className="text-[10px] font-normal duration-200 cursor-pointer">
                 <Link href={list.path}>
                   {" "}
                   <li>{list.label}</li>
