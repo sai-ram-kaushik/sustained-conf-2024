@@ -131,9 +131,9 @@ const index = () => {
           {review.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -146,9 +146,9 @@ const index = () => {
           {finance.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -161,9 +161,9 @@ const index = () => {
           {sponsorship.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -176,9 +176,9 @@ const index = () => {
           {publicity.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -193,9 +193,9 @@ const index = () => {
           {inaugural_and_valedictory_committee.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -210,9 +210,9 @@ const index = () => {
           {registration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -225,9 +225,9 @@ const index = () => {
           {website.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -242,9 +242,9 @@ const index = () => {
           {accommodation.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -259,9 +259,9 @@ const index = () => {
           {national_collaboration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -276,9 +276,9 @@ const index = () => {
           {international_collaboration.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -291,9 +291,9 @@ const index = () => {
           {industrial.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -306,9 +306,9 @@ const index = () => {
           {discipline.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
@@ -321,9 +321,9 @@ const index = () => {
           {poster.map((list, index) => (
             <div key={index} className="flex gap-3 items-center">
               <p className="text-lg text-center font-unbounded">
-                {list.label},
+                {list.label}
               </p>
-              <p className="text-center text-secondary">{list.designation}</p>
+              {/* <p className="text-center text-secondary">{list.designation}</p> */}
             </div>
           ))}
         </div>
