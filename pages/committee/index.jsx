@@ -20,91 +20,91 @@ const index = () => {
           </h2>
         </div>
 
-        <div className="flex items-center justify-center mt-5">
-          <h3>
-            Chief <span>Patron</span>
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">
+            Chief Patron
           </h3>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {chief_patrons.map((list, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <p className="text-xl text-center font-unbounded">{list.label}</p>
+            <div key={index} className="flex items-center gap-3">
+              <p className="text-lg text-center font-unbounded">{list.label},</p>
               <p className="text-center text-secondary">{list.designation}</p>
             </div>
           ))}
         </div>
 
-        <div className="flex items-center justify-center mt-5">
-          <h3>
-            <span>Patron</span>
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">
+            Patron
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10 mt-5">
+        <div className="flex flex-col items-start justify-start gap-5 mt-5">
           {patrons.map((list, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <p className="text-xl text-center font-unbounded">{list.label}</p>
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-lg text-center font-unbounded">{list.label},</p>
               <p className="text-center text-secondary">{list.designation}</p>
             </div>
           ))}
         </div>
 
-        <div className="flex items-center justify-center mt-5">
-          <h3>
-            Co - <span>Patron</span>
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">
+            Co - Patron
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-5">
+        <div className="flex flex-col gap-5 mt-5">
           {co_patrons.map((list, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <p className="text-xl text-center font-unbounded">{list.label}</p>
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-lg text-center font-unbounded">{list.label},</p>
               <p className="text-center text-secondary">{list.designation}</p>
             </div>
           ))}
         </div>
 
-        <div className="flex items-center justify-center mt-5">
-          <h3>
-            General <span>Chair</span>
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">
+            General Chair
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-5">
+        <div className="flex flex-col gap-5 mt-5">
           {general_chair.map((list, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <p className="text-xl text-center font-unbounded">{list.label}</p>
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-xl text-center font-unbounded">{list.label},</p>
               <p className="text-center text-secondary">{list.designation}</p>
             </div>
           ))}
         </div>
 
-        <div className="flex items-center justify-center mt-5">
-          <h3>
-            Conference <span>Chair & Convener</span>
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">
+            Conference Chair & Convener
           </h3>
         </div>
 
-        <div className="flex item-center justify-center gap-10 lg:gap-20 mt-5">
+        <div className="flex item-start justify-start gap-10 lg:gap-20 mt-5">
           {conference_chair.map((list, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <p className="text-xl text-center font-unbounded">{list.label}</p>
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-lg text-center font-unbounded">{list.label},</p>
               <p className="text-center text-secondary">{list.designation}</p>
             </div>
           ))}
         </div>
 
-        <div className="flex items-center justify-center mt-5">
-          <h3>
-            Co - <span>Convener</span>
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">
+            Co - Convener
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-5">
+        <div className="flex flex-col gap-5 mt-5">
           {co_convenor.map((list, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <p className="text-xl text-center font-unbounded">{list.label}</p>
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-lg text-center font-unbounded">{list.label},</p>
               <p className="text-center text-secondary">{list.designation}</p>
             </div>
           ))}

@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center p-4 gap-4">
         <Image src={logo} width={100} height={100} alt="logo" />
 
-        <div className="hidden lg:flex items-center gap-6 text-background">
+        <div className="hidden text-[10px] lg:flex items-center gap-6 text-background">
           {menuList.map((list, index) => (
             <ul key={index}>
               <Link href={list.path}>
