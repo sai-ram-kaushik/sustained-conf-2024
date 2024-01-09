@@ -132,6 +132,82 @@ export const co_convenor = [
   },
 ];
 
+export const review = [
+  { label: "Dr. Basanta Kumar Bhuyan", designation: "ME" },
+  { label: "Dr. Vimlesh Singh", designation: "ECE" },
+  { label: "Dr. Ashwini Kumar", designation: "ME" },
+  { label: "Dr. Richa Adlakha", designation: "EEE" },
+  { label: "Dr. Lilesh Gautam", designation: "CE" },
+];
+
+export const finance = [
+  { label: "Mr. Sushant", designation: "ME" },
+  { label: "Dr. Pratima Manhas", designation: "ECE" },
+];
+
+export const sponsorship = [
+  { label: "Dr. Devendra Vashisht", designation: "AUE" },
+  { label: "Dr. Rajendra Kumar", designation: "ME" },
+  { label: "Dr. Ashish Grover", designation: "EEE" },
+  { label: "Dr. Ashish Shukla", designation: "CE" },
+];
+
+export const publicity = [
+  { label: "Dr. Gurpreet Singh Matharou", designation: "ME" },
+  { label: "Dr. Richa Adlakha", designation: "EEE" },
+  { label: "Mr. Yaman Hooda", designation: "CE" },
+  { label: "Dr. Jyoti Verma", designation: "ECE" },
+];
+
+export const inaugural_and_valedictory_committee = [
+  { label: "Dr. Jimmy Mehta", designation: "ME" },
+  { label: "Dr. Neha Chaudhary", designation: "EEE" },
+  { label: "Dr. Namita", designation: "ECE" },
+];
+
+export const registration = [
+  { label: "Mr. Sushant", designation: "ME" },
+  { label: "Dr. Amrinder Kaur", designation: "EEE" },
+  { label: "Dr. Namita", designation: "ECE" },
+];
+
+export const website = [
+  { label: "Dr. Jimmy Mehta", designation: "ME" },
+  { label: "Dr. Sonal Bhugra", designation: "CE" },
+];
+
+export const accommodation = [
+  { label: "Dr. Prateek Mittal", designation: "ME" },
+  { label: "Dr. Shobha Shrivastava", designation: "BT" },
+  { label: "Mr. Amit Atri", designation: "EEE" },
+];
+
+export const national_collaboration = [
+  { label: "Mr. Dinesh Chawla", designation: "ME" },
+  { label: "Dr. Ashu Gautam", designation: "ECE" },
+];
+
+export const international_collaboration = [
+  { label: "Dr. Jimmy Mehta", designation: "ME" },
+  { label: "Dr. Sumit", designation: "EEE" },
+  { label: "Dr. Lilesh Gautam", designation: "CE" },
+];
+
+export const industrial = [
+  { label: "Mr. Sushant", designation: "ME" },
+  { label: "Dr. Amana Yadav", designation: "ECE" },
+];
+
+export const discipline = [
+  { label: "Dr. Sunny Bhatia", designation: "ME" },
+  { label: "Mr. Dain Thomas", designation: "ME" },
+];
+
+export const poster = [
+  { label: "Mr. Pankaj Shakkarwal", designation: "ME" },
+  { label: "Mr. Vinay", designation: "ME" },
+];
+
 export const theme = [
   {
     label: "Track 1",
